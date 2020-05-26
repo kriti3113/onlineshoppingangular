@@ -1,0 +1,29 @@
+
+<nav class="navbar navbar-expand-sm navbar-dark sticky-top" style="background-color:white">
+  <div class="mx-5" ><a class="navbar-brand" href="#" ><img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/TGS-Logo.svg/1280px-TGS-Logo.svg.png" style="width:100px;height:50px"></a></div>
+  <div class="display-flex">
+    <ul class="navbar-nav" >
+      <div class="mx-4"><li class="nav-item">
+        <a class="nav-link text-dark"  href="#"><b>HOME</b></a>
+      </li></div>
+      <div class="mx-4"><li class="nav-item">
+        <a class="nav-link text-dark" style="" href="#"><b>CLOTHES</b></a>
+      </li></div>
+      <div class="mx-4"><li class="nav-item">
+        <a class="nav-link text-dark"  href="#"><b>BEAUTY</b></a>
+      </li></div>
+      <div class="mx-4"><li class="nav-item">
+        <a class="nav-link text-dark"  href="#"><b>JEWELLERY</b></a>
+      </li></div>
+      <div class="mx-4"><li class="nav-item">
+        <a class="nav-link text-dark" href="#"><b>FOOTWEAR</b></a>
+      </li></div>
+    </ul>
+  </div>
+  <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-4" type="text" placeholder="Search" name="SEARCH" [(ngModel)]="SEARCH">
+    <button class="btn btn-dark" type="submit"><span class="text-light" (click)="search()">Search</span></button>
+  </form>
+
+</nav>
+
